@@ -78,6 +78,12 @@ body {
 	font-weight: 300;
 }
 
+.container {
+	width: 75%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
 .light-text {
 	color: #fff;
 }
@@ -96,6 +102,62 @@ h1 {
 	position: absolute;
 	top: 0;
 	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+.top-hamburger {
+	visibility: hidden;
+	position: absolute;
+	top: 1%;
+	left: 1%;
+}
+
+.top-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.top-nav ul li {
+	position: relative;
+	display: inline-block;
+	margin: 20px 10px 0;
+	padding: 0 0 20px 0;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.top-nav ul li:hover ul {
+	visibility: visible;
+	top: 30px;
+	opacity: 100%;
+}
+
+
+.top-nav ul li ul {
+	position: absolute;
+	top: 20px;
+	left: -10px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.5s ease, top 0.2s ease;
+	width: 160px;
+	padding: 20px;
+	background: #fff;
+	color: rgba(117,117,117,.8);	
+	border-radius: 5px;
+}
+
+.top-nav ul li ul li {
+	display: block;
+	margin: 0;
+	padding: 5px 5px 5px 0;
+}
+
+.top-nav ul li ul li a {	
+	color: rgba(117,117,117,.8);
 }
 
 .top-header a {
@@ -110,7 +172,8 @@ h1 {
 }
 
 .top-div {
-	padding-top: 200px;
+	padding: 145px 20px 20px 0;
+	backdrop-filter: blur(15px);
 }
 
 .full-section {
@@ -123,4 +186,27 @@ h1 {
 
 .dark-bg {
 	background-color: #305d74;
+}
+
+.btn {
+	display: inline-block;	
+	padding: 10px 20px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: 1.7px;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 2;
+	border: 1px solid transparent;	
+	border-radius: 5px;
+	user-select: none;
+	cursor: pointer;
+}
+
+.btn-1 {
+	color: #fff;
+	background-color: #b34031;
 }

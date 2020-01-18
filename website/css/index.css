@@ -79,8 +79,11 @@ body {
 }
 
 .container {
-	padding: 0 375px 0 95px;
+	position: relative;
+	height: 100%;
+	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .light-text {
@@ -91,10 +94,18 @@ body {
 	color: #323d47;
 }
 
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Dosis', sans-serif;
+}
+
 h1 {
 	font-size: 56px;
 	font-weight: 200;	
-	font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+	font-size: 33.7px;
+	font-weight: 400;
 }
 
 .logo-top img {
@@ -200,10 +211,18 @@ h1 {
 	background-image: url("../assets/design-images/bookcase-books-collection-cover.jpg");
 	background-size: cover;
 	background-color: #464646;
+	height: 100vh;	
 }
 
-.full-section {
-	height: 100vh;
+.section-header {
+	text-align: center;
+    max-width: 70%;
+    margin: 0 auto 70px;
+}
+
+
+.full-section {	
+	padding: 90px 0;
 }
 
 .gray-bg {
@@ -237,11 +256,52 @@ h1 {
 	background-color: #b34031;
 }
 
-.lead-in {
+.btn-2 {
+	color: #b34031;
+	background: #fff;
+	border: 1px solid #b34031;
+}
+
+.pg-1 {
+	font-size: 18px;
+	margin: 0 0 15px 0;
+}
+
+.pg-2 {
 	margin: 25px 0;
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 1.9
+}
+
+.pg-3 {
+	margin-bottom: 15px;
+	font-size: 26px;
+	font-weight: 300px;
+}
+
+.pg-4 {
+	font-size: 14px;
+}
+
+a.small {
+	font-size: 12px;
+	font-weight: 400;
+	color: #b34031;
+	text-decoration: none;
+}
+
+.flex-parent {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.card {
+	margin: 0 10px;
+	padding: 20px;
+	border: 1px solid #f1f2f3;
+	border-radius: .25rem;
 }
 
 @media all and (max-width: 800px) {

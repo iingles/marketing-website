@@ -312,6 +312,10 @@ a.small {
 	box-shadow: 1px 1px 10px #ccc;
 }
 
+.card a.small i {
+	margin-left: 5px;
+}
+
 .page-footer {
 	display: flex;
 	flex-direction: row;
@@ -333,6 +337,10 @@ a.small {
 
 /* FooterSocial Links */
 
+.page-footer .social-links {
+	margin-top: 15px;
+}
+
 .page-footer .social-links a {
 	display: inline-block;
 	font-size: 15px;
@@ -343,10 +351,6 @@ a.small {
 	text-align: center;
 	border-radius: 3px;
 }
-
-/* .page-footer .social-links i {
-	color
-} */
 
 .bottom-info .social-twitter {
 	background-color: #00aced;

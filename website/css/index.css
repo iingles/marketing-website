@@ -294,7 +294,7 @@ a.small {
 .flex-row-wrapper {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .card {
@@ -307,7 +307,13 @@ a.small {
 }
 
 .card.large {
-	width: 500px;
+	width: 535px;
+	border: none;
+	box-shadow: 1px 1px 10px #ccc;
+}
+
+.card.full {
+	width: 100%;
 	border: none;
 	box-shadow: 1px 1px 10px #ccc;
 }
@@ -335,7 +341,7 @@ a.small {
 	margin-bottom: 20px;
 }
 
-/* FooterSocial Links */
+/* Footer Social Links */
 
 .page-footer .social-links {
 	margin-top: 15px;
@@ -393,7 +399,7 @@ a.small {
 	font-weight: 600;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 500px) {
 	.top-nav .btn {
 		display: none;
 	}
@@ -404,5 +410,9 @@ a.small {
 
 	.top-hamburger {
 		visibility: visible;
+	}
+
+	.page-footer {
+		padding: 50px;
 	}
 }

@@ -322,6 +322,28 @@ a.small {
 	margin-left: 5px;
 }
 
+.form-wrapper {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#contact-form {
+	margin: 0 auto;
+}
+
+.contact-input,
+.contact-message {
+	padding: 5px 15px;
+	font-weight: 300;
+	line-height: 2.2;
+	border: 1px solid #eaeff4;
+}
+
+.contact-message {
+	width: 100%;
+}
+
 .page-footer {
 	display: flex;
 	flex-direction: row;

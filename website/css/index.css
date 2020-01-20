@@ -328,7 +328,42 @@ a.small {
 
 .logo-bottom img {
 	width: 250px;
+	margin-bottom: 20px;
 }
+
+/* FooterSocial Links */
+
+.page-footer .social-links a {
+	display: inline-block;
+	font-size: 15px;
+	height: 28px;
+	width: 28px;
+	line-height: 28px;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+}
+
+/* .page-footer .social-links i {
+	color
+} */
+
+.bottom-info .social-twitter {
+	background-color: #00aced;
+}
+
+.bottom-info .social-facebook {
+	background-color: #3b5998;
+}
+
+.bottom-info .social-youtube {
+	background-color: #b00;
+}
+
+.bottom-info .social-linkedin {
+	background-color: #007bb6;
+}
+
 
 .page-footer nav {
 	display: flex;
@@ -339,6 +374,19 @@ a.small {
 
 .page-footer dl {
 	margin: 10px;
+}
+
+.page-footer dl a {
+	text-decoration: none;
+	color: #757575;
+	font-size: 15px;
+}
+
+.page-footer dt a {
+	font-family: 'Dosis', sans-serif;
+	color: #323d47;
+	font-size: 17px;
+	font-weight: 600;
 }
 
 @media all and (max-width: 800px) {

@@ -291,17 +291,54 @@ a.small {
 	text-decoration: none;
 }
 
-.flex-parent {
+.flex-row-wrapper {
 	display: flex;
-	flex-direction: row;
+	flex-flow: row wrap;
 	justify-content: space-around;
 }
 
 .card {
-	margin: 0 10px;
+	background: #fff;
+	width: 300px;
+	margin: 10px;
 	padding: 20px;
 	border: 1px solid #f1f2f3;
 	border-radius: .25rem;
+}
+
+.card.large {
+	width: 500px;
+	border: none;
+	box-shadow: 1px 1px 10px #ccc;
+}
+
+.page-footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 50px 0;
+	border-top: 1px solid #f1f2f3;
+}
+
+.bottom-info {
+	width: 500px;
+}
+
+.logo-bottom img {
+	width: 250px;
+}
+
+.page-footer nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.page-footer dl {
+	margin: 10px;
 }
 
 @media all and (max-width: 800px) {

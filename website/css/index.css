@@ -108,6 +108,10 @@ h2 {
 	font-weight: 400;
 }
 
+.center-text {
+	text-align: center;
+}
+
 .logo-top img {
 	display: block;
 	text-indent: -9999px;

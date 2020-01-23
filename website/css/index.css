@@ -238,6 +238,7 @@ h2 {
 }
 
 .btn {
+	position: relative;
 	display: inline-block;	
 	padding: 10px 20px;
 	font-family: 'Open Sans', sans-serif;
@@ -262,8 +263,20 @@ h2 {
 
 .btn-2 {
 	color: #b34031;
-	background: #fff;
+	background-color: none;
 	border: 1px solid #b34031;
+}
+
+.btn-cap-dark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 15px;
+	background-color: rgba(0,0,0,.1);
+}
+
+.btn-cap-left {
+	padding-left: 65px;
 }
 
 .pg-1 {

@@ -73,6 +73,14 @@ table {
 
 /* Start your code here: */
 
+/* 
+	Set the root font size for accessibility
+*/
+
+html {
+	font-size: 62.5rem;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -80,10 +88,9 @@ body {
 
 .container {
 	position: relative;
-	height: 100%;
-	max-width: 1200px;
+	max-width: 1200rem;
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 0 1.5rem;
 }
 
 .light-text {
@@ -99,12 +106,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size: 56px;
+	font-size: 5.6rem;
 	font-weight: 200;	
 }
 
 h2 {
-	font-size: 33.7px;
+	font-size: 3.37rem;
 	font-weight: 400;
 }
 
@@ -114,14 +121,14 @@ h2 {
 
 .logo-top img {
 	display: block;
-	text-indent: -9999px;
-	width: 250px;
+	text-indent: -999rem;
+	width: 25rem;
 	color: #fff;
 }
 
 .top-filter {
-	padding: 145px 20px 20px 20px;
-	backdrop-filter: blur(20px);
+	padding: 14.5rem 2rem 2rem 2rem;
+	backdrop-filter: blur(2rem);
 }
 
 .top-header {
@@ -140,7 +147,7 @@ h2 {
 }
 
 .top-nav {
-	padding: 20px 0;
+	padding: 2rem 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -150,37 +157,37 @@ h2 {
 .top-nav ul li {
 	position: relative;
 	display: inline-block;
-	margin: 20px 10px 0;
-	padding: 0 0 20px 0;
+	margin: 2rem 1rem 0;
+	padding: 0 0 2rem 0;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 1.3rem;
 }
 
 .top-nav ul li:hover ul {
 	visibility: visible;
-	top: 30px;
+	top: 3rem;
 	opacity: 100%;
 }
 
 
 .top-nav ul li ul {
 	position: absolute;
-	top: 20px;
-	left: -10px;
+	top: 2rem;
+	left: -1rem;
 	visibility: hidden;
 	opacity: 0;
 	transition: opacity 0.5s ease, top 0.2s ease;
-	width: 160px;
-	padding: 20px;
+	width: 16rem;
+	padding: 2rem;
 	background: #fff;
 	color: rgba(117,117,117,.8);	
-	border-radius: 5px;
+	border-radius: .5rem;
 }
 
 .top-nav ul li ul li {
 	display: block;
 	margin: 0;
-	padding: 5px 5px 5px 0;
+	padding: .5rem .5rem .5rem 0;
 }
 
 .top-nav ul li ul li a {	
@@ -196,7 +203,7 @@ h2 {
 .top-header a {
 	text-decoration: none;
 	font-weight: 600;
-	letter-spacing: 1px;
+	letter-spacing: .1rem;
 	color: rgba(255,255,255,.65);
 }
 
@@ -204,11 +211,11 @@ h2 {
 	display: inline-block;
 	height: 0;
 	width: 0;
-	margin: 3px 0 3px 5px;
-	border-top: 3px solid rgba(255,255,255,.65);
+	margin: .3rem 0 .3rem 5rem;
+	border-top: .3rem solid rgba(255,255,255,.65);
 	border-bottom: none;
-	border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
+	border-left: .3rem solid transparent;
+    border-right: .3rem solid transparent;
 }
 
 .top-section {
@@ -221,12 +228,12 @@ h2 {
 .section-header {
 	text-align: center;
     max-width: 70%;
-    margin: 0 auto 70px;
+    margin: 0 auto 7rem;
 }
 
 
 .full-section {	
-	padding: 90px 0;
+	padding: 9rem 0;
 }
 
 .gray-bg {
@@ -240,18 +247,18 @@ h2 {
 .btn {
 	position: relative;
 	display: inline-block;	
-	padding: 10px 20px;
+	padding: 1rem 2rem;
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
 	vertical-align: middle;
-	letter-spacing: 1.7px;
-	font-size: 11px;
+	letter-spacing: .17rem;
+	font-size: 1.1rem;
 	font-weight: 600;
 	line-height: 2;
-	border: 1px solid transparent;	
-	border-radius: 5px;
+	border: .1rem solid transparent;	
+	border-radius: .5rem;
 	user-select: none;
 	cursor: pointer;
 }
@@ -264,45 +271,45 @@ h2 {
 .btn-2 {
 	color: #b34031;
 	background-color: none;
-	border: 1px solid #b34031;
+	border: .1rem solid #b34031;
 }
 
 .btn-cap-dark {
 	position: absolute;
 	top: 0;
 	left: 0;
-	padding: 10px 15px;
+	padding: 1rem 1.5rem;
 	background-color: rgba(0,0,0,.1);
 }
 
 .btn-cap-left {
-	padding-left: 65px;
+	padding-left: 6.5rem;
 }
 
 .pg-1 {
-	font-size: 18px;
-	margin: 0 0 15px 0;
+	font-size: 1.8rem;
+	margin: 0 0 1.5rem 0;
 }
 
 .pg-2 {
-	margin: 25px 0;
-	font-size: 18px;
+	margin: 2.5rem 0;
+	font-size: 1.8rem;
 	font-weight: 300;
-	line-height: 1.9
+	line-height: .19rem;
 }
 
 .pg-3 {
-	margin-bottom: 15px;
-	font-size: 26px;
-	font-weight: 300px;
+	margin-bottom: 1.5rem;
+	font-size: 2.6rem;
+	font-weight: 300;
 }
 
 .pg-4 {
-	font-size: 14px;
+	font-size: 1.4rem;
 }
 
 a.small {
-	font-size: 12px;
+	font-size: 1.2rem;
 	font-weight: 400;
 	color: #b34031;
 	text-decoration: none;
@@ -316,27 +323,27 @@ a.small {
 
 .card {
 	background: #fff;
-	width: 300px;
-	margin: 10px;
-	padding: 20px;
-	border: 1px solid #f1f2f3;
+	width: 30rem;
+	margin: 1rem;
+	padding: 2rem;
+	border: .1rem solid #f1f2f3;
 	border-radius: .25rem;
 }
 
 .card.large {
-	width: 535px;
+	width: 53.5rem;
 	border: none;
-	box-shadow: 1px 1px 10px #ccc;
+	box-shadow: .1rem .1rem 1rem #ccc;
 }
 
 .card.full {
 	width: 100%;
 	border: none;
-	box-shadow: 1px 1px 10px #ccc;
+	box-shadow: .1rem .1rem 1rem #ccc;
 }
 
 .card a.small i {
-	margin-left: 5px;
+	margin-left: .5rem;
 }
 
 .form-wrapper {
@@ -351,10 +358,10 @@ a.small {
 
 .contact-input,
 .contact-message {
-	padding: 5px 15px;
+	padding: .5rem .5rem;
 	font-weight: 300;
 	line-height: 2.2;
-	border: 1px solid #eaeff4;
+	border: .1rem solid #eaeff4;
 }
 
 .contact-message {
@@ -367,34 +374,34 @@ a.small {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: flex-start;
-	padding: 50px 0;
-	border-top: 1px solid #f1f2f3;
+	padding: 5rem 0;
+	border-top: .1rem solid #f1f2f3;
 }
 
 .bottom-info {
-	width: 500px;
+	width: 50rem;
 }
 
 .logo-bottom img {
-	width: 250px;
-	margin-bottom: 20px;
+	width: 25rem;
+	margin-bottom: 2rem;
 }
 
 /* Footer Social Links */
 
 .page-footer .social-links {
-	margin-top: 15px;
+	margin-top: 1.5rem;
 }
 
 .page-footer .social-links a {
 	display: inline-block;
-	font-size: 15px;
-	height: 28px;
-	width: 28px;
-	line-height: 28px;
+	font-size: 1.5rem;
+	height: 2.8rem;
+	width: 2.8rem;
+	line-height: 2.8rem;
 	color: #fff;
 	text-align: center;
-	border-radius: 3px;
+	border-radius: .3rem;
 }
 
 .bottom-info .social-twitter {
@@ -422,19 +429,19 @@ a.small {
 }
 
 .page-footer dl {
-	margin: 10px;
+	margin: 1rem;
 }
 
 .page-footer dl a {
 	text-decoration: none;
 	color: #757575;
-	font-size: 15px;
+	font-size: 1.5rem;
 }
 
 .page-footer dt a {
 	font-family: 'Dosis', sans-serif;
 	color: #323d47;
-	font-size: 17px;
+	font-size: 1.7rem;
 	font-weight: 600;
 }
 
@@ -452,6 +459,6 @@ a.small {
 	}
 
 	.page-footer {
-		padding: 50px;
+		padding: 5rem;
 	}
 }

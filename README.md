@@ -49,3 +49,4 @@ We will be using git throughout the semester.  Each project much be forked and 
 - [ ] When you have completed the website, submit your repository URL
 
 The URL you used for layout is: https://hoodoo.digital/
+The URL of the website is: https://iingles-2780-marketing-site.netlify.com/

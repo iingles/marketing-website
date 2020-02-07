@@ -88,6 +88,9 @@ body {
 }
 
 .container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	position: relative;
 	max-width: 1200rem;
 	margin: 0 auto;
